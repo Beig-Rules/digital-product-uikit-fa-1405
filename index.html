@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>کیت UI فارسی مینیمال | فروش دیجیتال</title>
+<style>
+:root { --bg:#0a0a0a; --fg:#f5f5f5; --muted:#888; }
+body { font-family: system-ui,sans-serif; background:var(--bg); color:var(--fg); margin:0; }
+.hero { text-align:center; padding:5rem 2rem; }
+h1 { font-weight:300; font-size:2.6rem; }
+.price { font-size:2rem; margin:1rem 0; }
+.buy { background:#fff; color:#000; padding:1rem 2.5rem; border:none; font-size:1.1rem; cursor:pointer; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:1rem; max-width:900px; margin:2rem auto; padding:0 1rem; }
+.item { border:1px solid #222; padding:1rem; text-align:center; }
+.toggle { position:fixed; top:1rem; left:1rem; background:#222; color:#fff; border:1px solid #444; padding:0.5rem 1rem; }
+.light { --bg:#fafafa; --fg:#111; }
+</style>
+</head>
+<body>
+<button class="toggle" onclick="document.body.classList.toggle('light')">تم</button>
+<div class="hero">
+<h1>کیت UI فارسی مینیمال</h1>
+<p style="color:var(--muted);max-width:500px;margin:1rem auto;">۵۰+ کامپوننت آماده، کاملاً RTL، برای Figma و کد. ساخته شده برای طراحان و توسعه‌دهندگان ایرانی.</p>
+<div class="price">۴۹۰٬۰۰۰ تومان</div>
+<button class="buy">خرید و دانلود فوری</button>
+</div>
+<div class="grid">
+<div class="item"><strong>دکمه‌ها و فرم‌ها</strong><br>کامپوننت‌های پایه با حالت‌های مختلف</div>
+<div class="item"><strong>کارت و لیست</strong><br>الگوهای محتوایی تمیز</div>
+<div class="item"><strong>ناوبری</strong><br>منو، تب و مودال</div>
+<div class="item"><strong>تم تاریک/روشن</strong><br>از پیش آماده</div>
+</div>
+<footer style="text-align:center;padding:3rem;color:#888;">کیت UI فارسی — یک‌بار خرید، استفاده نامحدود</footer>
+</body>
+</html>
